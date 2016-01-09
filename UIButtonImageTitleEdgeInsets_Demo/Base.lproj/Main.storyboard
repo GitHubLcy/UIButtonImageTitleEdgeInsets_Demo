@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQv-ZP-9Zk">
+                                <rect key="frame" x="126" y="107" width="62" height="20"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="7Lx-rW-bmN"/>
+                                    <constraint firstAttribute="width" constant="62" id="ca2-sX-Fba"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="粉色" image="粉.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7XT-Kk-Kph">
+                                <rect key="frame" x="126" y="141" width="62" height="20"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="W9b-eV-Zul"/>
+                                    <constraint firstAttribute="width" constant="62" id="v0a-vx-1Ou"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="粉色" image="粉.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJf-eF-QZo">
+                                <rect key="frame" x="126" y="175" width="62" height="20"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="ZTT-4B-pxE"/>
+                                    <constraint firstAttribute="height" constant="20" id="egV-6i-Ljq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="粉色" image="粉.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CS-Fu-ywc">
+                                <rect key="frame" x="126" y="208" width="62" height="20"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="0ib-Wh-gmw"/>
+                                    <constraint firstAttribute="width" constant="62" id="TNE-QV-m65"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="粉色" image="粉.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7XT-Kk-Kph" firstAttribute="top" secondItem="cQv-ZP-9Zk" secondAttribute="bottom" constant="14" id="82v-pp-Tkz"/>
+                            <constraint firstItem="sJf-eF-QZo" firstAttribute="top" secondItem="7XT-Kk-Kph" secondAttribute="bottom" constant="14" id="8Gn-MA-Pw8"/>
+                            <constraint firstItem="cQv-ZP-9Zk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="106" id="8hd-Yk-H5p"/>
+                            <constraint firstItem="0CS-Fu-ywc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="106" id="GAc-tA-6mL"/>
+                            <constraint firstItem="cQv-ZP-9Zk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="87" id="HsP-Mb-uRg"/>
+                            <constraint firstItem="7XT-Kk-Kph" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="106" id="Mpe-cr-SYE"/>
+                            <constraint firstItem="sJf-eF-QZo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="106" id="n3E-yN-fib"/>
+                            <constraint firstItem="0CS-Fu-ywc" firstAttribute="top" secondItem="sJf-eF-QZo" secondAttribute="bottom" constant="13" id="v41-kZ-mMn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fourButton" destination="0CS-Fu-ywc" id="Iz3-0r-zaP"/>
+                        <outlet property="fourButtonHeight" destination="0ib-Wh-gmw" id="T6Q-EB-7rQ"/>
+                        <outlet property="fourButtonWidth" destination="TNE-QV-m65" id="64f-rw-V7F"/>
+                        <outlet property="oneButton" destination="cQv-ZP-9Zk" id="cls-5U-tN0"/>
+                        <outlet property="oneButtonHeight" destination="7Lx-rW-bmN" id="b6B-VY-qLv"/>
+                        <outlet property="oneButtonWidth" destination="ca2-sX-Fba" id="TlB-ng-3aF"/>
+                        <outlet property="threeButton" destination="sJf-eF-QZo" id="Itj-b4-n4g"/>
+                        <outlet property="threeButtonHeight" destination="egV-6i-Ljq" id="Oke-6H-Hky"/>
+                        <outlet property="threeButtonWidth" destination="ZTT-4B-pxE" id="SlT-Vk-vNE"/>
+                        <outlet property="twoButton" destination="7XT-Kk-Kph" id="IKb-dm-vn1"/>
+                        <outlet property="twoButtonHeight" destination="W9b-eV-Zul" id="9Ae-NV-dQd"/>
+                        <outlet property="twoButtonWidth" destination="v0a-vx-1Ou" id="Dk6-gb-IfT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="259" y="263"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="粉.png" width="20" height="20"/>
+    </resources>
+</document>
