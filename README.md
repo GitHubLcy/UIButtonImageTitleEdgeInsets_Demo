@@ -1,0 +1,2 @@
+# UIButtonImageTitleEdgeInsets_Demo
+用UIButton的titleEdgeInsets和 imageEdgeInsets属性来设置文字和图片，有 图片在左文字在右、 图片在右文字在左、 图片在下文字在上、 图片在上文字在下四种方式的demo。
